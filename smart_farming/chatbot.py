@@ -6,7 +6,7 @@ try:
     
     load_dotenv()
 except ImportError:
-    pass
+    pass    
 
 
 if not os.environ.get('MISTRAL_API_KEY'):
